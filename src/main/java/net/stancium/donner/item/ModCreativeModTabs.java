@@ -22,6 +22,11 @@ public class ModCreativeModTabs
                             .displayItems((pParameters,pOutput)->{
 
                                 pOutput.accept(ModItems.SALT.get());
+                                pOutput.accept(ModItems.MAGNESIUM_DUST.get());
+                                pOutput.accept(ModItems.FERROSILICON_DUST.get());
+                                pOutput.accept(ModItems.IRON_DUST.get());
+                                pOutput.accept(ModItems.TITANIUM_OXIDE.get());
+
                                 pOutput.accept(ModBlocks.SALT_BLOCK.get());
                                 pOutput.accept(ModBlocks.SALT_ORE.get());
 

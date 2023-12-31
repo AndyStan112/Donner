@@ -18,6 +18,10 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.SALT);
+        simpleItem(ModItems.FERROSILICON_DUST);
+        simpleItem(ModItems.MAGNESIUM_DUST);
+        simpleItem(ModItems.TITANIUM_OXIDE);
+        simpleItem(ModItems.IRON_DUST);
 
     }
 

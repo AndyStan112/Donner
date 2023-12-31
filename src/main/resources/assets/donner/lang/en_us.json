@@ -1,5 +1,10 @@
 {
   "item.donner.salt" : "Salt",
+  "item.donner.magnesium_dust" : "Magnesium dust",
+  "item.donner.ferrosilicon_dust" : "Ferrosilicon dust",
+  "item.donner.iron_dust" : "Iron dust",
+  "item.donner.titanium_oxide" : "Titanium oxide",
+
   "block.donner.salt_block" : "Salt Block",
 
   "block.donner.salt_ore" : "Salt ore",
