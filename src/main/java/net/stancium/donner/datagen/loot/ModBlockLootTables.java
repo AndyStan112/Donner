@@ -38,7 +38,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block-> createOreLikeDrop(
                         ModBlocks.SALT_ORE.get(),
                         ModItems.SALT.get()));
-
+        this.add(ModBlocks.TITANIUM_ORE.get(),
+                block-> createOreLikeDrop(
+                        ModBlocks.TITANIUM_ORE.get(),
+                        ModItems.TITANIUM_OXIDE.get()));
     }
 
 

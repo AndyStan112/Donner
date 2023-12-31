@@ -29,6 +29,7 @@ public class ModCreativeModTabs
 
                                 pOutput.accept(ModBlocks.SALT_BLOCK.get());
                                 pOutput.accept(ModBlocks.SALT_ORE.get());
+                                pOutput.accept(ModBlocks.TITANIUM_ORE.get());
 
                             })
                             .build() );
