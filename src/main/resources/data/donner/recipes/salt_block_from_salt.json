@@ -1,7 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "shape": [
+  "pattern": [
     "###",
     "###",
     "###"
@@ -12,6 +11,6 @@
     }
   },
   "result": {
-    "item": "donner:sapphire_block"
+    "item": "donner:salt_block"
   }
 }
