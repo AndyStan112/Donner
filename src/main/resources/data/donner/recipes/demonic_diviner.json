@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TET",
+    "TST",
+    " D "
+  ],
+  "key": {
+    "T": {
+      "item": "donner:titanium_ingot"
+    },
+    "D": {
+      "item": "donner:ender_diviner"
+    },
+    "S": {
+      "item": "donner:demonic_ore_sample"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "item": "donner:demonic_diviner"
+  }
+}

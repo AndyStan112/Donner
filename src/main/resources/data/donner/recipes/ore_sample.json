@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients": [
+    {
+      "item": "minecraft:coal"
+    },
+     {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+   {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+     {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "donner:titanium_ingot"
+    }, {
+      "item": "donner:salt"
+    },
+   {
+      "item": "donner:demonic_dust"
+    }
+  ],
+  "result": {
+    "item": "donner:ore_sample",
+    "count": 1
+  }
+}

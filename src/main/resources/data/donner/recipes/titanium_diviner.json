@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "# #",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "donner:titanium_ingot"
+    }
+  },
+  "result": {
+    "item": "donner:titanium_diviner"
+  }
+}
