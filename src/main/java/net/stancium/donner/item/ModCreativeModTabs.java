@@ -27,6 +27,12 @@ public class ModCreativeModTabs
                                 pOutput.accept(ModItems.IRON_DUST.get());
                                 pOutput.accept(ModItems.TITANIUM_OXIDE.get());
 
+                                pOutput.accept(ModItems.TITANIUM_INGOT.get());
+
+                                pOutput.accept(ModItems.TITANIUM_DIVINER.get());
+                                pOutput.accept(ModItems.ENDER_DIVINER.get());
+                                pOutput.accept(ModItems.DEMONIC_DIVINER.get());
+
                                 pOutput.accept(ModBlocks.SALT_BLOCK.get());
                                 pOutput.accept(ModBlocks.SALT_ORE.get());
                                 pOutput.accept(ModBlocks.TITANIUM_ORE.get());

@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.stancium.donner.Donner;
+import net.stancium.donner.item.custom.DivinerItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -23,6 +24,15 @@ public class ModItems {
             ITEMS.register("iron_dust",()->new Item(new Item.Properties()));
     public static final RegistryObject<Item> FERROSILICON_DUST =
             ITEMS.register("ferrosilicon_dust",()->new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TITANIUM_INGOT =
+            ITEMS.register("titanium_ingot",()->new Item(new Item.Properties()));
+     public static final RegistryObject<Item> TITANIUM_DIVINER =
+            ITEMS.register("titanium_diviner",()->new DivinerItem(new Item.Properties().durability(100),1));
+    public static final RegistryObject<Item> ENDER_DIVINER =
+            ITEMS.register("ender_diviner",()->new DivinerItem(new Item.Properties().durability(300),2));
+    public static final RegistryObject<Item> DEMONIC_DIVINER =
+            ITEMS.register("demonic_diviner",()->new DivinerItem(new Item.Properties().durability(1000),3));
+
 
 
 }

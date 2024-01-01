@@ -11,10 +11,12 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.stancium.donner.util.ModTags;
 
-public class MetalDetectorItem  extends Item {
-
-    public MetalDetectorItem(Properties pProperties) {
+public class DivinerItem extends Item {
+    int max_depth = 0;
+    int divinerLevel = 1;
+    public DivinerItem(Properties pProperties , int pDivinerLevel) {
         super(pProperties);
+        this.divinerLevel= pDivinerLevel;
     }
 
     @Override
@@ -23,8 +25,13 @@ public class MetalDetectorItem  extends Item {
             boolean found = false;
             BlockPos clickPos = pContext.getClickedPos();
             Player player = pContext.getPlayer();
+            switch (divinerLevel){
+                case 1: max_depth = Math.min(32,clickPos.getY());break;
+                case 2: max_depth = clickPos.getY();break;
+                case 3: max_depth = clickPos.getY() + 64;break;
+            }
 
-            for(int i=0; i< clickPos.getY() + 64;i++){
+            for(int i=0; i<max_depth;i++){
                 BlockState clickedBlock = pContext.getLevel().getBlockState(clickPos.below(i));
                 if(isValuable(clickedBlock)){
                    outputValuableCoordinates(clickPos.below(i),player,clickedBlock.getBlock());

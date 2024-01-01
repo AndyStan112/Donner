@@ -5,6 +5,12 @@
   "item.donner.iron_dust" : "Iron dust",
   "item.donner.titanium_oxide" : "Titanium oxide",
 
+  "item.donner.titanium_ingot" : "Titanium ingot",
+
+  "item.donner.titanium_diviner" : "Titanium diviner",
+  "item.donner.ender_diviner" : "Ender diviner",
+  "item.donner.demonic_diviner" : "Demonic diviner",
+
   "block.donner.salt_block" : "Salt Block",
 
   "block.donner.salt_ore" : "Salt ore",

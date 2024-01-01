@@ -23,6 +23,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.TITANIUM_OXIDE);
         simpleItem(ModItems.IRON_DUST);
 
+        simpleItem(ModItems.TITANIUM_INGOT);
+
+        simpleItem(ModItems.TITANIUM_DIVINER);
+        simpleItem(ModItems.ENDER_DIVINER);
+        simpleItem(ModItems.DEMONIC_DIVINER);
+
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
