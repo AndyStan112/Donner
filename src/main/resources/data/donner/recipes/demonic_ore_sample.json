@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients": [
+    {
+      "item": "minecraft:coal_block"
+    },
+     {
+      "item": "minecraft:lapis_block"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+   {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+     {
+      "item": "minecraft:copper_block"
+    },
+    {
+      "item": "donner:titanium_block"
+    }, {
+      "item": "minecraft:gold_block"
+    },
+   {
+      "item": "donner:demonic_dust_block"
+    }
+  ],
+  "result": {
+    "item": "donner:demonic_ore_sample",
+    "count": 1
+  }
+}

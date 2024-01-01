@@ -23,10 +23,10 @@
     {
       "item": "donner:titanium_ingot"
     }, {
-      "item": "donner:salt"
+      "item": "minecraft:gold_ingot"
     },
    {
-      "item": "donner:demonic_dust"
+      "item": "donner:salt_dust"
     }
   ],
   "result": {
