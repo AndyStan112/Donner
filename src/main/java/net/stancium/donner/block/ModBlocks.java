@@ -21,6 +21,8 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Donner.MODID);
     public static final RegistryObject<Block> SALT_BLOCK = registerBlock("salt_block" ,
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.SAND)));
+    public static final RegistryObject<Block> DEMONIC_DUST_BLOCK = registerBlock("demonic_dust_block" ,
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.SAND)));
 
     public static final RegistryObject<Block> SALT_ORE = registerBlock("salt_ore",
             ()->new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
@@ -29,7 +31,8 @@ public class ModBlocks {
             ()->new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3,6)));
 
-
+    public static final RegistryObject<Block> TITANIUM_BLOCK = registerBlock("titanium_block" ,
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
     private static <T extends Block> RegistryObject<Block> registerBlock(String name, Supplier<T> block){
         RegistryObject<Block> registeredBlock = BLOCKS.register(name,block);

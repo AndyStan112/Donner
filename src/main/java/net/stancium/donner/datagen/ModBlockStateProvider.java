@@ -16,9 +16,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.SALT_BLOCK);
+        blockWithItem(ModBlocks.DEMONIC_DUST_BLOCK);
 
         blockWithItem(ModBlocks.SALT_ORE);
         blockWithItem(ModBlocks.TITANIUM_ORE);
+
+        blockWithItem(ModBlocks.TITANIUM_BLOCK);
 
 
 

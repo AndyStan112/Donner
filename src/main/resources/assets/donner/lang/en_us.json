@@ -15,7 +15,10 @@
   "item.donner.ender_diviner" : "Ender diviner",
   "item.donner.demonic_diviner" : "Demonic diviner",
 
-  "block.donner.salt_block" : "Salt Block",
+  "block.donner.salt_block" : "Salt block",
+  "block.donner.demonic_dust_block" : "Demonic dust block",
+
+  "block.donner.titanium_block" : "Titanium block",
 
   "block.donner.salt_ore" : "Salt ore",
   "block.donner.titanium_ore" : "Titanium ore",

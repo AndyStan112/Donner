@@ -33,6 +33,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
         this.dropSelf(ModBlocks.SALT_BLOCK.get());
+        this.dropSelf(ModBlocks.DEMONIC_DUST_BLOCK.get());
+
+        this.dropSelf(ModBlocks.TITANIUM_BLOCK.get());
 
         this.add(ModBlocks.SALT_ORE.get(),
                 block-> createOreLikeDrop(
