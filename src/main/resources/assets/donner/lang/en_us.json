@@ -1,9 +1,13 @@
 {
   "item.donner.salt" : "Salt",
   "item.donner.magnesium_dust" : "Magnesium dust",
-  "item.donner.ferrosilicon_dust" : "Ferrosilicon dust",
   "item.donner.iron_dust" : "Iron dust",
   "item.donner.titanium_oxide" : "Titanium oxide",
+  "item.donner.demonic_dust" : "Demonic dust",
+
+  "item.donner.ferrosilicon_dust" : "Ferrosilicon dust",
+  "item.donner.ore_sample" : "Ore sample",
+  "item.donner.demonic_ore_sample" : "Demonic ore sample",
 
   "item.donner.titanium_ingot" : "Titanium ingot",
 

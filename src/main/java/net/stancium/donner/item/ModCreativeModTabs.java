@@ -23,9 +23,13 @@ public class ModCreativeModTabs
 
                                 pOutput.accept(ModItems.SALT.get());
                                 pOutput.accept(ModItems.MAGNESIUM_DUST.get());
-                                pOutput.accept(ModItems.FERROSILICON_DUST.get());
                                 pOutput.accept(ModItems.IRON_DUST.get());
                                 pOutput.accept(ModItems.TITANIUM_OXIDE.get());
+                                pOutput.accept(ModItems.DEMONIC_DUST.get());
+
+                                pOutput.accept(ModItems.FERROSILICON_DUST.get());
+                                pOutput.accept(ModItems.ORE_SAMPLE.get());
+                                pOutput.accept(ModItems.DEMONIC_ORE_SAMPLE.get());
 
                                 pOutput.accept(ModItems.TITANIUM_INGOT.get());
 

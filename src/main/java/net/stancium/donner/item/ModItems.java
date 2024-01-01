@@ -22,8 +22,18 @@ public class ModItems {
             ITEMS.register("magnesium_dust",()->new Item(new Item.Properties()));
     public static final RegistryObject<Item> IRON_DUST =
             ITEMS.register("iron_dust",()->new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DEMONIC_DUST =
+            ITEMS.register("demonic_dust",()->new Item(new Item.Properties()));
+
+
     public static final RegistryObject<Item> FERROSILICON_DUST =
             ITEMS.register("ferrosilicon_dust",()->new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ORE_SAMPLE =
+            ITEMS.register("ore_sample",()->new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DEMONIC_ORE_SAMPLE =
+            ITEMS.register("demonic_ore_sample",()->new Item(new Item.Properties()));
+
+
     public static final RegistryObject<Item> TITANIUM_INGOT =
             ITEMS.register("titanium_ingot",()->new Item(new Item.Properties()));
      public static final RegistryObject<Item> TITANIUM_DIVINER =
