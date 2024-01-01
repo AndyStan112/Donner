@@ -27,7 +27,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.SALT_ORE.get(),
                         ModBlocks.TITANIUM_BLOCK.get(),
-                      //  ModBlocks.SALT_ORE.get(),
+                        ModBlocks.DEMONIC_DUST_ORE.get(),
                         ModBlocks.TITANIUM_ORE.get());
         this.tag(BlockTags.MINEABLE_WITH_SHOVEL)
                 .add(ModBlocks.SALT_BLOCK.get(),
@@ -38,7 +38,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.SALT_ORE.get());
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.TITANIUM_ORE.get(),
-                        ModBlocks.TITANIUM_BLOCK.get());
+                        ModBlocks.TITANIUM_BLOCK.get(),
+                        ModBlocks.DEMONIC_DUST_ORE.get());
 
     }
 

@@ -20,6 +20,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         blockWithItem(ModBlocks.SALT_ORE);
         blockWithItem(ModBlocks.TITANIUM_ORE);
+        blockWithItem(ModBlocks.DEMONIC_DUST_ORE);
 
         blockWithItem(ModBlocks.TITANIUM_BLOCK);
 

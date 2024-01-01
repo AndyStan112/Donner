@@ -41,8 +41,9 @@ public class ModCreativeModTabs
                                 pOutput.accept(ModBlocks.DEMONIC_DUST_BLOCK.get());
 
                                 pOutput.accept(ModBlocks.SALT_ORE.get());
-
                                 pOutput.accept(ModBlocks.TITANIUM_ORE.get());
+                                pOutput.accept(ModBlocks.DEMONIC_DUST_ORE.get());
+
                                 pOutput.accept(ModBlocks.TITANIUM_BLOCK.get());
 
                             })

@@ -34,7 +34,6 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     protected void generate() {
         this.dropSelf(ModBlocks.SALT_BLOCK.get());
         this.dropSelf(ModBlocks.DEMONIC_DUST_BLOCK.get());
-
         this.dropSelf(ModBlocks.TITANIUM_BLOCK.get());
 
         this.add(ModBlocks.SALT_ORE.get(),
@@ -45,6 +44,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block-> createOreLikeDrop(
                         ModBlocks.TITANIUM_ORE.get(),
                         ModItems.TITANIUM_OXIDE.get()));
+        this.add(ModBlocks.DEMONIC_DUST_ORE.get(),
+                block-> createSingleItemTableWithSilkTouch(
+                        ModBlocks.DEMONIC_DUST_ORE.get(),
+                        ModItems.DEMONIC_DUST.get()));
     }
 
 
